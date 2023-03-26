@@ -1,0 +1,22 @@
+/* Fond */
+body {
+    background: #00d084;
+  }
+  
+  /* Logo */
+  #login h1 a, .login h1 a {
+    background-image: url('../images/LogoMonEImpact.svg');
+  }
+  
+  /* Bouton */
+  .wp-core-ui .button-primary {
+    background: #83BD71;
+    border-color: #83BD71;
+  }
+  
+  /* Liens */
+  .login #backtoblog a,
+  .login #nav a,
+  .privacy-policy-page-link a {
+    color: black;
+  }

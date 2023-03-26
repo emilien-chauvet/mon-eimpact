@@ -1,0 +1,357 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* à modifier */
+:root {
+    --GreenColor: #00d084;
+    --couleur-verte-clair: #8bc34a;
+    --couleur-verte-fonce: #689f38;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: "Roboto", Sans-serif;
+}
+
+/* éléments constants */
+
+.container {
+    height: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+hr {
+    display: none;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: bolder;
+    color: #70AD47;
+    margin: 3rem 0 2.5rem 0;
+	font-family: 'Lusitana-Regular';
+}
+
+h2 {
+	font-family: 'Overpass-Italic';
+}
+
+p, span, a {
+  font-family: 'Roboto-Regular';
+}
+
+/* fin éléments constants */
+
+/* header */
+
+.header {
+    height: 10vh;
+}
+
+.inside_container_header {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inside_container_header a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-basis: 50%;
+}
+
+.header_menu {
+    display: flex;
+    align-items: center;
+}
+
+.header_menu li {
+    margin-left: 2rem;
+}
+
+.header_menu li a {
+    font-size: 1rem;
+    color: #7A7A7A;
+}
+
+.logo {
+    max-width: 15%;
+    height: auto;
+}
+
+/* fin header */
+
+/* page conseils */
+
+.sous_titre_conseils {
+    font-weight: lighter;
+    font-size: 1.4rem;
+}
+
+.titre_section_conseils {
+    font-size: 1.5rem;
+    color: #7A7A7A;
+    margin: 5rem 0 2rem 0;
+	user-select: none;
+}
+
+.titre_section_conseils:hover {
+	cursor: pointer;
+	font-style: italic;
+	font-weight: bolder;
+}
+
+.div_contenu_section_conseils ul li {
+    margin: 1.5rem 0 1.5rem;
+}
+
+.div_contenu_section_conseils ul li::before {
+    content: "\2022";
+    color: #70AD47;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+#systeme, #stockage, #internet, #mails {
+	display: none;
+}
+
+
+/* fin conseils */
+
+/* front-page */
+
+.div_image_banniere_de_front_page {
+    position: relative;
+}
+
+.image_banniere_de_front_page {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wrapper_content_banniere_front_page {
+    text-align: center;
+    background-image: url(https://mon-eimpact.online/wp-content/uploads/2023/03/banniere-frontpage-300x81-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem;
+}
+
+.wrapper_content_banniere_front_page span {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.wrapper_content_banniere_front_page h1 {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.section_cest_quoi {
+    display: flex;
+    margin: 10rem 0;
+}
+
+.section_cest_quoi div {
+    flex-basis: 50%;
+}
+
+.image_section_cest_quoi {
+    max-width: 75%;
+    height: auto;
+}
+
+.wrapper_content_cest_quoi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper_content_cest_quoi h2 {
+    color: #70AD47;
+    margin-bottom: 1.5rem;
+}
+
+.content_cest_quoi p {
+    color: #7A7A7A;
+}
+
+.section_redirection_simulateur {
+    background-color: #70AD47;
+    padding: 2rem 0 5rem 0;
+}
+
+.section_redirection_simulateur h2 {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 60px;
+    padding: 5rem 0;
+}
+
+.section_redirection_simulateur p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 0 0 5rem 0;
+}
+
+.section_redirection_simulateur a {
+    color: #70AD47;
+    background-color: white;
+    padding: 2rem 0;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 10rem;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+/* fin front-page */
+
+/* footer */
+
+.inside_container_footer {
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    align-items: center;
+}
+
+.inside_container_footer img {
+    width: auto;
+    max-height: 70%;
+}
+
+.footer_menu {
+    display: flex;
+}
+
+.footer_menu li {
+    margin-left: 2rem;
+  }
+
+.footer_menu li a {
+    font-size: 1.5rem;
+    color: #7A7A7A;
+  }
+
+/* fin footer */
+
+/* responsive design */
+
+@media screen and (max-width: 1400px) {
+    .logo {
+        max-width: 20%;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .logo {
+        max-width: 25%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .logo {
+        max-width: 30%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .header {
+        height: 30vh;
+    }
+    .logo {
+        max-width: 40%;
+    }
+    .inside_container_header {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .header_menu {
+        justify-content: space-around;
+        width: 100%;
+        padding: 2rem 0 2rem;
+    }
+    .header_menu li {
+        margin: 0;
+    }
+    .inside_container_header a {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .section_cest_quoi {
+        flex-direction: column;
+    }
+    .wrapper_img_cest_quoi {
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .wrapper_content_banniere_front_page h1 {
+        font-size: 40px;
+    }
+    .wrapper_content_banniere_front_page span {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .header {
+        height: 45vh;
+    }
+    .header_menu {
+        display: inline;
+        text-align: center;
+    }
+    .header_menu li {
+        display: block;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .wrapper_content_banniere_front_page h1 {
+        font-size: 25px;
+    }
+    .wrapper_content_banniere_front_page span {
+        font-size: 20px;
+    }
+    .section_redirection_simulateur h2 {
+        font-size: 40px;
+    }
+}

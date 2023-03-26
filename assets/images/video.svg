@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="744.52625"
+   height="553.15961"
+   viewBox="0 0 238.2484 177.01107"
+   version="1.1"
+   id="svg22855"
+   sodipodi:docname="play-video-youtube-svgrepo-com.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs22859" />
+  <sodipodi:namedview
+     id="namedview22857"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.36990524"
+     inkscape:cx="-437.95001"
+     inkscape:cy="-213.56821"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg22855" />
+  <g
+     id="g22845"
+     transform="translate(-8.8749583,-39.498917)">
+    <path
+       d="M 30,57 C 48.48,43.88 218.13,43.66 230.18,60.38 242.23,77.1 243.73,190.29 224.38,199.49 205.03,208.69 45.35,214.58 30,198 14.65,181.42 10.39,71 30,57 Z"
+       fill="#191919"
+       id="path22841" />
+    <path
+       d="m 113.38,216.51 c -77.15,0 -86.17,-9.74 -89.24,-13 C 10.17,188.4 6.56,127.61 10.2,92.38 12.53,69.8 17.5,56.1 25.37,50.51 29,47.94 37.21,44.23 66.7,41.7 c 18.68,-1.6 42.08,-2.37 65.87,-2.17 24.5,0.21 47.51,1.46 64.79,3.51 29.07,3.45 36.18,8.36 39.31,12.69 7.59,10.52 9.66,40.46 10.23,57.37 0.93,27.89 -1.08,54.5 -5.36,71.19 -3.18,12.38 -7.54,19.51 -13.72,22.45 -13.35,6.35 -68.33,9.27 -102,9.69 q -6.51,0.08 -12.44,0.08 z M 34.64,63.51 C 34.4,63.72 28.81,68 26.11,94 c -1.85,17.9 -1.66,40.64 0.5,60.84 2.65,24.76 7.07,35.36 9.25,37.72 4,3.56 31.64,8.65 91,7.83 51.53,-0.71 87.59,-5.14 94,-8.09 0.33,-0.26 3.91,-3.44 6.85,-19.88 3,-16.75 4.1,-40.75 3,-64.18 -1.24,-25.69 -4.71,-39.57 -6.84,-42.94 -4.7,-3.67 -34.05,-9.49 -94.18,-9.81 -56.59,-0.3 -90.17,4.62 -95,8 z"
+       fill="#191919"
+       id="path22843" />
+  </g>
+  <g
+     id="g22849"
+     style="fill:#70ad47;fill-opacity:1"
+     transform="translate(-8.8749583,-39.498917)">
+    <path
+       d="M 30,57 C 48.48,43.88 218.13,43.66 230.18,60.38 242.23,77.1 243.73,190.29 224.38,199.49 205.03,208.69 45.35,214.58 30,198 14.65,181.42 10.39,71 30,57 Z"
+       fill="#e83a2a"
+       id="path22847"
+       style="fill:#70ad47;fill-opacity:1" />
+  </g>
+  <g
+     id="g22853"
+     transform="translate(-8.8749583,-39.498917)">
+    <path
+       d="m 106.64,88.63 c -5.53,3.52 -3.88,75.56 -0.68,79.8 3.2,4.24 63.75,-34 63.8,-40.81 0.05,-6.81 -57.58,-42.51 -63.12,-38.99 z"
+       fill="#ffffff"
+       id="path22851" />
+  </g>
+</svg>
